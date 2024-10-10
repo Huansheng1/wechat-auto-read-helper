@@ -1,0 +1,7 @@
+comtypes
+requests
+tkinter
+ttkthemes
+Pillow
+psutil
+matplotlib
