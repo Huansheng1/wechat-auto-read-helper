@@ -3,6 +3,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Huansheng1/my-qinglong-js.svg?label=github%20stars)](https://github.com/Huansheng1/my-qinglong-js)[![JavaScript](https://img.shields.io/badge/--F7DF1E?logo=javascript&logoColor=000)](https://wechaty.js.org/docs/polyglot/typescript/)[![Python](https://img.shields.io/badge/--3670A0?logo=python&logoColor=ffdd54)](https://wechaty.js.org/docs/polyglot/python/)
 
 > 项目地址：https://github.com/Huansheng1/wechat-auto-read-helper
+> 
 > 本项目永远免费开源，严禁闲鱼倒卖，仅供学习交流，不得用于任何商业用途。
 ## 说明
 
