@@ -1899,11 +1899,6 @@ def listenWechat(wechatBotIndex, wechatPid, messagePort):
         robot = comtypes.client.CreateObject("WeChatRobot.CWeChatRobot")
         event = comtypes.client.CreateObject("WeChatRobot.RobotEvent")
         wx = WeChatRobot(wechatPid, robot, event)
-        if wx.GetWeChatVer() != "3.7.0.30":
-            print(
-                f" 检测到 当前电脑微信版本为 {wx.GetWeChatVer()}，不符合要求，请安装3.7.0.30版本的微信  第[{wechatBotIndex}] 号微信停止监听，监听个锤子，跳过！"
-            )
-            return
         if wx.IsWxLogin() == False:
             print(f" 第[{wechatBotIndex}] 号微信还没登录，监听个锤子，跳过！")
             return
